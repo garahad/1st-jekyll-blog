@@ -6,14 +6,15 @@
   </head>
   <body>
   <header>
-    <strong> this is my blog </strong>
-    <nav>
-      <ul>
-        <li><a href="{{site.baseurl}}/index.html">home</a></li>
-        <li><a href="{{site.baseurl}}/news.html">news</a></li>
-      </ul>
-    </nav>
+    <h1> this is my blog </h1>
+    {% include nav.html %}
+
   </header>
     {{content}}
+
+  <footer>
+    <p> my blog end </p>
+      {% include nav.html %}
+  </footer>
   </body>
 </html>
