@@ -1,0 +1,22 @@
+html{
+  margin-left: 50 px;
+  padding: 50 px;
+  color: blue;
+}
+
+.current{
+  background-color: black;
+  color: yellow;
+}
+
+.nav{
+  margin: 0;
+}
+
+.nav > li {
+  display:inline-block;
+}
+
+.nav-top {
+  font-size: 10 px;
+}

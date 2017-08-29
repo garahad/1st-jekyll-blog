@@ -3,18 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title> YG Jekyll blog </title>
+    <link rel="stylesheet" href="{{site.baseurl}}/css/common.css">
   </head>
   <body>
   <header>
     <h1> this is my blog </h1>
-    {% include nav.html %}
+    {% include nav.html navclass='nav-top' %}
 
   </header>
     {{content}}
 
   <footer>
     <p> my blog end </p>
-      {% include nav.html %}
+      {% include nav.html navclass='nav-bottom' %}
   </footer>
   </body>
 </html>
