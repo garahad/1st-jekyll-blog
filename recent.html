@@ -7,10 +7,10 @@ layout: news
 </h1>
 
 <ul>
-  {% for news in site.categories.recent limit:2 %}
+  {% for rece in site.categories.recent limit:2 %}
     <li>
-      <a href="">{{news.title}}</a>
-      <p>{{news.meta}}</p>
+      <a href="{{site.baseurl}}{{rece.url}}">{{rece.title}}</a>
+      <p>{{rece.meta}}</p>
     </li>
   {% endfor %}
 </ul>

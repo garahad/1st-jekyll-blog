@@ -1,7 +1,7 @@
 html{
-  margin-left: 50 px;
+  margin-left: 100 px;
   padding: 50 px;
-  color: blue;
+  color: black;
 }
 
 .current{
@@ -19,4 +19,10 @@ html{
 
 .nav-top {
   font-size: 10 px;
+}
+
+footer {
+  color: orange;
+  font-size: 30 px ; 
+  margin-upper: 50 px;
 }

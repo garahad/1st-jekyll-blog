@@ -1,5 +1,15 @@
 ---
 layout: default
 ---
-    <h1> Let's get it
-      <p> show me the money </p>
+
+<h1> Let's check out the world's company
+
+<h2> Kinds of conturies </h2>
+  <ol>
+    {% for country in site.data.types %}
+      <li>
+        <a href="{{site.baseurl}}/countries/{{country.folder}}/">{{country.title}}</a>
+        {{country.content | markdownify }}
+      </li>
+    {% endfor %}
+  </ol>

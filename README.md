@@ -1,2 +1,2 @@
-# 1st-jekyll-blog
+# blog
 1st blog with jekyll
