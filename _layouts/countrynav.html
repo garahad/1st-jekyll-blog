@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<strong>Countries</strong>
+
+<nav>
+<ul>
+  {% for country in site.data.types %}
+    <li>
+      <a href="{{site.baseurl}}/countries/{{country.folder}}/" class="{% if page.url contains country.folder %} current {% endif %} ">{{country.title}}</a>
+    </li>
+  {% endfor %}
+</ul>
+</nav>
+
+{{content}}

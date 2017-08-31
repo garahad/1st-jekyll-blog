@@ -32,6 +32,7 @@ plugins:
   - jekyll-feed
 
 exclude: ['README.md']
+permalink: pretty 
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
