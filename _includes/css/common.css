@@ -1,40 +1,15 @@
-html{
+header{
   margin-left: 100 px;
   padding: 50 px;
   color: black;
 }
 
-.current{
-  background-color: black;
-  color: yellow;
-}
-
-.nav{
-  margin: 0;
-}
-
-.masterhead{
-  padding: 1em;
-  background: url("../image/background.jpg") no-repeat center ;
-  background-size: cover;
-}
-
-.masterhead-countries{
-  padding: 1em;
-  background: url("../image/background2.jpg") no-repeat center ;
-  background-size: cover;
-}
-
-.nav > li {
-  display:inline-block;
-}
-
-.nav-top {
-  font-size: 10 px;
-}
 
 footer {
-  color: orange;
+  color: gray;
   font-size: 30 px ;
-  margin-upper: 50 px;
+  padding: 50 px; 
+/*  안먹음 왜 안먹는지 모르겠음. */
+  margin-left: 100 px;
+  background-color: #dee9f1;
 }

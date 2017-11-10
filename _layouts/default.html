@@ -2,20 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> {% if page.title%}{{page.title}}•{% endif %} YG Jekyll blog{% if page.titleAfter%}•{{page.titleAfter}}{% endif %} </title>
+    <title> {% if page.title %}{{page.title}}•{% endif %} YG Jekyll blog {% if page.titleAfter%}•{{page.titleAfter}}{% endif %} </title>
     <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
     <meta name="description" content="{{page.meta}}">
   </head>
+
   <body>
   <header class="masterhead {{page.masterheadClass}}">
     <h1> Index </h1>
     {% include nav.html navclass='nav-top' %}
-
   </header>
+
     {{content}}
 
-  <footer>
-    <p> There are still other menus </p>
+  <footer class="foot">
+    <p> 이 사이트의 성공을 기원합니다 </p>
       {% include nav.html navclass='nav-bottom' %}
   </footer>
   </body>

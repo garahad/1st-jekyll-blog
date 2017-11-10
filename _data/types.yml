@@ -1,12 +1,20 @@
 
-- title: korea
-  folder: korea
-  content: 'korea is downside'
+- title: 구글
+  folder: google
+  content: '미래를 지배할 안정적 IT 기업'
 
-- title: usa
-  folder: usa
-  content: usa is no.1
+- title: 페이스북
+  folder: facebook
+  content: Move faster and break things
 
-- title: japan
-  folder: japan
-  content: japan is still great
+- title: 아마존
+  folder: amazon
+  content: 미래 유력 챔피언 후보 
+
+- title: 대한약품
+  folder: daehan
+  content: 연수익률 15프로의 안정적 기업 
+
+- title: 뷰웍스
+  folder: viewworks
+  content: 제조업의 한방을 기대할수 있는 기업

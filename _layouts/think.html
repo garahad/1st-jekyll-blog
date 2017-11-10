@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<br>
+<h3> 철학 </h3>
+
+<nav>
+  <ul>
+    <li><a href="{{site.baseurl}}/think/" class="{% if page.url contains 'think' %} current {% endif %} "> 생각 </a></li>
+    <li><a href="{{site.baseurl}}/read/" class="{% if page.url contains 'read' %} current {% endif %} ">독서감상 </a></li>
+  </ul>
+</nav>
+
+
+{{content}}

@@ -1,0 +1,22 @@
+---
+layout: think
+title: think
+changefreq: weekly 
+---
+
+<h1>
+  think
+</h1>
+
+<ul>
+  {% for think in site.categories.think limit:100 %}
+    <li>
+      <p><a href="{{site.baseurl}}{{think.url}}">{{think.title}}</a>
+      </p>
+    </li>
+  {% endfor %}
+</ul>
+
+
+
+<!-- 어떻게 이것도 주소 형식이 /think/로 끝난거지? /think.html이 아니라?  -->

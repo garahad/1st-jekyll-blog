@@ -1,0 +1,14 @@
+<ul>
+  {% for company in site.pages %}
+    {% if company.type == include.type %}
+      <li>
+        <a href="{{site.baseurl}}{{company.url}}" class="{% if page.url contains company.folder %} current {% endif %} ">
+
+        <h3>{{company.title}}</h3>
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+

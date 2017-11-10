@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<br>
+
+<nav>
+<h2> 현재 투자 진행중인 기업들</h2>
+  <ol>
+    {% for company in site.data.types %}
+      <li>
+        <a href="{{site.baseurl}}/companies/{{company.folder}}/">{{company.title}}</a>
+        {{company.content | markdownify }}
+      </li>
+    {% endfor %}
+  </ol>
+
+
+</nav>
+
+{{content}}

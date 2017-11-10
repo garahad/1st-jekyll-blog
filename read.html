@@ -1,0 +1,16 @@
+---
+layout: think
+---
+
+<br>
+<h3>
+  독서 감상 목록 
+</h3>
+
+<ul>
+  {% for rece in site.categories.read limit:100 %}
+    <li>
+      <p><a href="{{site.baseurl}}{{rece.url}}">{{rece.title}}</a></p>
+    </li>
+  {% endfor %}
+</ul>

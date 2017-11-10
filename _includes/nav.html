@@ -1,7 +1,12 @@
 <nav>
   <ul class="nav {{include.navclass}}">
-    <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %} current {% endif %} "> home</a></li>
-    <li><a href="{{site.baseurl}}/news/" class="{% if page.url contains 'news' or  page.url contains 'recent' %} current {% endif %} ">news</a></li>
-    <li><a href="{{site.baseurl}}/countries/" class="{% if page.url contains 'countries' %} current {% endif %} ">conturies</a></li>
+    <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %} current {% endif %} "> 처음으로 </a></li>
+    <li><a href="{{site.baseurl}}/think/" class="{% if page.url contains 'think' or  page.url contains 'read' %} current {% endif %} ">철학</a></li>
+    <li><a href="{{site.baseurl}}/companies/" class="{% if page.url contains 'companies' %} current {% endif %} ">투자</a></li>
   </ul>
 </nav>
+
+
+<!-- 왜  == '/index.html' 로 하면 하이라이트가 안 되지?  -->
+
+
